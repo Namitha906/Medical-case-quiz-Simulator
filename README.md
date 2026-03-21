@@ -2,6 +2,30 @@
 
 An interactive web-based simulator that allows users to practice clinical decision-making by analyzing patient symptoms, selecting appropriate tests, and determining diagnoses.
 
+## 📁 Project Structure
+
+- **index.html**  
+  Contains the structure of the web application, including the layout of the simulator interface and UI elements.
+
+- **style.css**  
+  Handles the styling of the application, including layout, colors, buttons, and overall visual design.
+
+- **script.js**  
+  Contains the core logic of the application, including:
+  - Loading cases dynamically  
+  - Handling test and diagnosis selection  
+  - Score tracking and progress updates  
+  - User interaction and flow control  
+
+- **cases.json**  
+  Stores the dataset of medical case scenarios, including:
+  - Patient details  
+  - Symptoms  
+  - Available tests  
+  - Correct diagnosis  
+  - Explanations
+    
+
 ## 🚀 Features
 - Interactive case-based learning
 - Test selection validation
@@ -41,3 +65,6 @@ This project does not use real patient data and is intended only for learning an
 
 ## 📌 Note
 This project is built for educational purposes and uses simplified medical cases.
+
+## Author
+Namitha
