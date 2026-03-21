@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Medical Case Simulator </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h1>🩺 Medical Case Simulator</h1>
+  <p class="subtitle">
+  Practice clinical decision-making through interactive case simulations
+</p>
+  <h3  style="color:black">+5 for selecting the correct test.</h3>
+  <h3 style="color:black">+10 for selecting the right diagnosis</h3>
+
+
+  <button id="start-btn" onclick="startSimulation()">Start Case</button>
+  <div id="top-bar" class="hidden">
+  <p id="progress">Case 1 / 12</p>
+  <p id="score">Score: 0</p>
+</div>
+
+  <div id="case-card" class="card hidden">
+
+    <h3>Patient</h3>
+    <p id="patient"></p>
+    <p id="symptoms"></p>
+
+    <h3>Select a Test</h3>
+    <div id="test-buttons"></div>
+
+    <div id="result-section"></div>
+
+    <div id="diagnosis-section" class="hidden">
+      <h3>Select Diagnosis</h3>
+      <div id="diagnosis-buttons"></div>
+    </div>
+
+    <button id="next-btn" class="hidden" onclick="nextCase()">Next Case</button>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

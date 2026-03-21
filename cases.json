@@ -1,0 +1,160 @@
+{
+    "case1 ":{
+        "patient": "45-year-old male",
+        "symptoms":["fever","cough","chest pain"],
+         "tests": {
+      "Chest X-ray": "Lung infection visible",
+      "Blood test": "High white blood cell count"
+    },
+    "correct_test":"Chest X-ray",
+    "options": ["Pneumonia", "Asthma", "Tuberculosis"],
+    "answer": "Pneumonia",
+    "explanation": "Fever, cough, and chest X-ray findings indicate pneumonia."
+  },
+
+  "case2": {
+    "patient": "30-year-old female",
+    "symptoms": ["frequent urination", "increased thirst", "fatigue"],
+    "tests": {
+      "Blood sugar test": "High glucose levels",
+      "Urine test": "Glucose present"
+    },
+    "correct_test":"Blood sugar test",
+    "options": ["Diabetes", "Kidney infection", "Anemia"],
+    "answer": "Diabetes",
+    "explanation": "High blood sugar and glucose in urine indicate diabetes."
+  },
+
+  "case3": {
+    "patient": "22-year-old male",
+    "symptoms": ["fever", "severe headache", "stiff neck"],
+    "tests": {
+      "Lumbar puncture": "Presence of bacteria in CSF",
+      "Blood test": "Elevated white blood cells"
+    },
+    "correct_test":"Lumbar puncture",
+    "options": ["Migraine", "Meningitis", "Flu"],
+    "answer": "Meningitis",
+    "explanation": "Stiff neck and infected CSF are key signs of meningitis."
+  },
+
+  "case4": {
+    "patient": "60-year-old male",
+    "symptoms": ["chest pain", "shortness of breath", "sweating"],
+    "tests": {
+      "ECG": "Abnormal ST elevation",
+      "Blood test": "Elevated troponin levels"
+    },
+    "correct_test":"ECG",
+    "options": ["Heart attack", "Asthma", "Pneumonia"],
+    "answer": "Heart attack",
+    "explanation": "Chest pain with abnormal ECG and troponin indicates myocardial infarction."
+  },
+
+  "case5": {
+    "patient": "18-year-old female",
+    "symptoms": ["fever", "sore throat", "swollen lymph nodes"],
+    "tests": {
+      "Throat swab": "Bacterial infection detected",
+      "Blood test": "Mild infection markers"
+    },
+    "correct_test":"Throat swab",
+    "options": ["Common cold", "Strep throat", "Allergy"],
+    "answer": "Strep throat",
+    "explanation": "Sore throat with bacterial detection indicates strep throat."
+  },
+
+  "case6": {
+    "patient": "35-year-old male",
+    "symptoms": ["abdominal pain", "nausea", "loss of appetite"],
+    "tests": {
+      "Ultrasound": "Inflamed appendix",
+      "Blood test": "High white blood cell count"
+    },
+    "correct_test":"Ultrasound",
+    "options": ["Appendicitis", "Food poisoning", "Gastritis"],
+    "answer": "Appendicitis",
+    "explanation": "Abdominal pain with inflamed appendix confirms appendicitis."
+  },
+  
+  "case7": {
+    "patient": "28-year-old male",
+    "symptoms": ["runny nose", "sneezing", "itchy eyes"],
+    "tests": {
+      "Allergy test": "Positive for pollen allergy",
+      "Blood test": "Normal"
+    },
+    "correct_test":"Allergy test",
+    "options": ["Common cold", "Allergy", "Sinus infection"],
+    "answer": "Allergy",
+    "explanation": "Sneezing and itchy eyes with positive allergy test indicate allergic rhinitis."
+  },
+
+  "case8": {
+    "patient": "50-year-old female",
+    "symptoms": ["fatigue", "pale skin", "shortness of breath"],
+    "tests": {
+      "Blood test": "Low hemoglobin levels",
+      "Iron test": "Low iron levels"
+    },
+    "correct_test":"Blood test",
+    "options": ["Anemia", "Diabetes", "Asthma"],
+    "answer": "Anemia",
+    "explanation": "Low hemoglobin and iron levels indicate anemia."
+  },
+
+  "case9": {
+    "patient": "40-year-old male",
+    "symptoms": ["burning chest pain", "acid reflux", "difficulty swallowing"],
+    "tests": {
+      "Endoscopy": "Esophageal irritation observed",
+      "pH test": "High acid levels"
+    },
+    "correct_test":"Endoscopy",
+    "options": ["GERD", "Heart attack", "Ulcer"],
+    "answer": "GERD",
+    "explanation": "Acid reflux and esophageal irritation indicate GERD."
+  },
+
+  "case10": {
+    "patient": "10-year-old child",
+    "symptoms": ["fever", "rash", "red eyes"],
+    "tests": {
+      "Blood test": "Viral infection markers",
+      "Physical exam": "Characteristic rash pattern"
+    },
+    "correct_test":"Physical exam",
+    "options": ["Measles", "Allergy", "Chickenpox"],
+    "answer": "Measles",
+    "explanation": "Fever with rash and red eyes are classic signs of measles."
+  },
+
+  "case11": {
+    "patient": "65-year-old male",
+    "symptoms": ["tremors", "slow movement", "muscle stiffness"],
+    "tests": {
+      "Neurological exam": "Impaired motor function",
+      "MRI": "Normal structure"
+    },
+    "correct_test":"Neurological exam",
+    "options": ["Parkinson’s disease", "Stroke", "Alzheimer’s"],
+    "answer": "Parkinson’s disease",
+    "explanation": "Tremors and slow movement are key signs of Parkinson’s."
+  },
+
+  "case12": {
+    "patient": "27-year-old female",
+    "symptoms": ["lower abdominal pain", "missed periods", "nausea"],
+    "tests": {
+      "Pregnancy test": "Positive",
+      "Ultrasound": "Pregnancy confirmed"
+    },
+    "correct_test":"Pregnancy test",
+    "options": ["Pregnancy", "Appendicitis", "Food poisoning"],
+    "answer": "Pregnancy",
+    "explanation": "Missed periods and positive pregnancy test confirm pregnancy."
+  }
+  }
+
+
+    
