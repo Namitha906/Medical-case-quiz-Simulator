@@ -67,4 +67,4 @@ This project does not use real patient data and is intended only for learning an
 This project is built for educational purposes and uses simplified medical cases.
 
 ## Author
-Namitha
+Namitha.N.Reddy
