@@ -1,5 +1,10 @@
 # 🩺 Medical Case Simulator
 
+## 🌐 Live Demo
+
+Try the application here:  
+medical-case-quiz-simulator-demo.netlify.app
+
 An interactive web-based simulator that allows users to practice clinical decision-making by analyzing patient symptoms, selecting appropriate tests, and determining diagnoses.
 
 ## 📁 Project Structure
