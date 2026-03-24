@@ -1,86 +1,133 @@
 body {
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to right, #eef2f3, #dfe9f3);
+  background: linear-gradient(to right, #eef2f7, #e3edf7);
   margin: 0;
+  color: #2c3e50;
 }
 
+/* Container */
 .container {
   width: 60%;
   margin: 60px auto;
   text-align: center;
 }
 
+/* Heading */
 h1 {
-  color: #b75bd8;
-  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 2.2rem;
 }
 
+.highlight {
+  color: #3498db;
+}
+
+/* Subtitle */
 .subtitle {
-  font-size: 16px;
-  color: #555;
-  margin-top: -10px;
-  margin-bottom: 20px;
+  font-size: 17px;
+  color: #6c757d;
+  margin-top: -8px;
+  margin-bottom: 25px;
 }
 
-
-button {
-  font-weight: 600;
-  letter-spacing: 0.5px;
+/* Sections */
+.section {
+  background: white;
+  border-radius: 16px;
+  padding: 28px;
+  margin: 25px 0;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  text-align: left;
+  transition: 0.3s ease;
 }
 
+.section:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+
+/* Card (for simulator) */
 .card {
   margin-top: 20px;
-  padding: 25px;
-  background: rgb(255, 255, 255);
-  border-radius: 15px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  padding: 28px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
   animation: fadeIn 0.5s ease;
 }
 
+section.card{
+  opacity: 0;
+  animation: fadeIn 0.5s ease forwards
+}
+
+/* Buttons */
 button {
-  padding: 10px 18px;
+  padding: 10px 20px;
   margin: 8px;
   border: none;
-  border-radius: 8px;
+  border-radius: 10px;
   background: #3498db;
   color: white;
   cursor: pointer;
-  transition: 0.3s;
+  transition: all 0.2s ease;
+  font-weight: 600;
+  letter-spacing: 0.4px;
 }
 
 button:hover {
   background: #2980b9;
-  transform: scale(1.05);
+  transform: translateY(-2px);
 }
 
+/* Hidden elements */
 .hidden {
   display: none;
 }
 
+/* Result text */
 #result-section {
   margin-top: 15px;
   font-weight: bold;
+  font-size: 16px;
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
+/* Top bar (score + progress) */
 #top-bar {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 15px;
-  padding: 10px 20px;
-  background: rgb(247, 245, 245);
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  background: #f8fbff;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(52, 152, 219, 0.1);
 }
-  
+
+/* Feedback colors */
 .correct {
-  color: #2ecc71;
+  color: #27ae60;
 }
 
 .wrong {
   color: #e74c3c;
+}
+
+/* Animation */
+.section {
+  animation: fadeIn 0.6s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.card {
+  animation: fadeIn 0.4s ease;
+}
+
+* {
+  transition: all 0.25s ease;
 }
