@@ -104,6 +104,24 @@ function updateProgress() {
     "Case " + (currentCase + 1) + " / " + cases.length;
 }
 
+function showFinalScore(){
+  let container=document.querySelector(".container");
+  let totalScore=cases.length * 15;
+  let percentage = ((score/totalScore)*100).toFixed(1);
+
+    container.innerHTML = `
+    <div class="card">
+      <h2>🎉 Quiz Completed!</h2>
+      <p><strong>Your Score:</strong> ${score} / ${totalScore}</p>
+      <p><strong>Accuracy:</strong> ${percentage}%</p>
+
+      <button onclick="restartQuiz()">Restart</button>
+    </div>
+  `;
+
+
+}
+
 function nextCase() {
  console.log("Next clicked");
 
@@ -112,8 +130,15 @@ function nextCase() {
   currentCase++;
 
   if (currentCase >= cases.length) {
-    currentCase = 0;
+    showFinalScore();
+    return;
   }
 
   loadCase();
+}
+
+function restartQuiz() {
+  currentCase = 0;
+  score = 0;
+  location.reload();
 }
